@@ -29,6 +29,7 @@ This is a template repository which allows for an external set of QMK keymaps to
 1. Within `rules.mk`, add the following:
     ```
     BOOTLOADER = rp2040
+    CONVERT_TO = blok
     ```
 1. Within `config.h`, the following line adds the option to double tap `RESET` to enter bootloader
     ```C
@@ -38,11 +39,11 @@ This is a template repository which allows for an external set of QMK keymaps to
 
 1. Must compile using 
     ```bash
-    qmk compile -e CONVERT_TO=promicro_rp2040
+    qmk compile -e CONVERT_TO=blok
     ```
     If default paths aren't set, the full command is 
     ```bash
-    qmk compile -kb <keyboard> -km <keymap> -e CONVERT_TO=promicro_rp2040
+    qmk compile -kb <keyboard> -km <keymap> -e CONVERT_TO=blok
     ```
     Take the `.uf2` file and copy to board
 As far as I know, the workflow on github doesn't work, but could just need some updating.
