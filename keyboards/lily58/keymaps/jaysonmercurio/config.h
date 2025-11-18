@@ -30,9 +30,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define GRAVE_ESC_CTRL_OVERRIDE
 
+//#define LAYER_LOCK_IDLE_TIMEOUT 60000  // Turn off after 60 seconds.
+
 #define QUICK_TAP_TERM 0
-#define TAPPING_TERM 200
-#define TAPPING_TOGGLE 2
+#define TAPPING_TERM 250
 
 // The pin connected to the data pin of the LEDs
 //#define WS2812_DI_PIN D7

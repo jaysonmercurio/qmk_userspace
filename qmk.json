@@ -1,7 +1,8 @@
 {
-    "userspace_version": "1.0",
+    "userspace_version": "1.1",
     "build_targets": [
         ["lily58/rev1", "jaysonmercurio"],
-        ["lily58/r2g", "led"]
+        ["lily58/r2g", "led"],
+        ["lily58/r2g", "jaysonmercurio_rgb"]
     ]
 }

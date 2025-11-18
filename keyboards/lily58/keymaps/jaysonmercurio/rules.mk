@@ -1,5 +1,6 @@
 BOOTLOADER = rp2040
 
+CONVERT_TO = blok
 LTO_ENABLE = yes            # Link Time Optimization enabled
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = no        # Mouse keys
@@ -14,6 +15,7 @@ RGBLIGHT_ENABLE = no       # Enable WS2812 RGB underlight.
 # RGB_MATRIX_DRIVER = ws2812
 SWAP_HANDS_ENABLE = no      # Enable one-hand typing
 OLED_ENABLE = no           # OLED display
+# LAYER_LOCK_ENABLE = yes
 
 
 # If you want to change the display of OLED, you need to change here
