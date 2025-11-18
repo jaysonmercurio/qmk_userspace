@@ -83,7 +83,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   _______, _______, _______,    C(KC_UP),    _______,       KC_HOME,                              _______, _______,       _______,       _______, _______, _______,
   _______, _______, C(KC_LEFT), KC_UP,       C(KC_RGHT),    KC_PGUP,                              _______, LGUI(KC_PGDN), LGUI(KC_PGUP), _______, _______, _______,
   _______, _______, KC_LEFT,    KC_DOWN,     KC_RGHT,       KC_PGDN,                              _______, _______,       _______,       _______, _______, _______,
-  _______, _______,   _______,  C(KC_DOWN),  _______,       KC_END,  DF(_GAME), DF(_COLEMAK_DH),  _______, _______,       _______,       _______, _______, KC_SLEP,
+  _______, _______, LGUI(KC_PGDN),  C(KC_DOWN),  LGUI(KC_PGUP),       KC_END,  DF(_GAME), DF(_COLEMAK_DH),  _______, _______,       _______,       _______, _______, KC_SLEP,
                              _______, _______, _______,              _______, _______,        QK_LLCK, _______, _______
 ),
 /* FUNC 
